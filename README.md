@@ -19,4 +19,6 @@ More details about the methods can be found in the paper.
 To run the code on your custom data just replace the filename at the appropriate commented place in the code. After installing the packages simply type the following in your command line.
 
 ```bash
-python Ab_DENV_sequence.py
+python Ab_DENV_SequenceFeature.py
+python Ab_DENV_AtomFeature.py
+python Ab_DENV_FingerprintFeature.py
