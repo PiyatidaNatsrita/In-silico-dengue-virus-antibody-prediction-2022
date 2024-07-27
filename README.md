@@ -9,9 +9,6 @@ We built a novel dataset (n = 1108) by compiling the interactions of CDR-H3 
 We used three different feature-encoding methods and ten ML algorithms to compare and exhibit the best performing model to determine the NAbs that can neutralize all 4 serotypes of DENV in unseen antibodies. These antibodies were further characterized for their binding sites, binding affinities, and binding stabilities using molecular docking and MD simulation.
 More details about the methods can be found in the paper.
 
-# Running the code
-To run the code on your custom data just replace the filename at the appropriate commented place in the code. After installing the packages simply type the following in your command line.
-
 # Authors
 The work was done by Piyatida Natsrita, Phasit Charoenkwan, Watshara Shoombuatong, Panupong Mahalapbutr, Kiatichai Faksri, Sorujsiri Charoensudjai, Thanyada Rungrotmongkol and Chonlatip Pipattanaboon.
 
@@ -20,6 +17,11 @@ This research project was financially supported by the Young Researcher Developm
 
 # License
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+
+
+# Running the code
+To run the code on your custom data just replace the filename at the appropriate commented place in the code. After installing the packages simply type the following in your command line.
+
 ```bash
 # sequence-feature-encoding methods
 python Ab_DENV_SequenceFeature.py
@@ -29,5 +31,3 @@ python Ab_DENV_AtomFeature.py
 
 # fingerprint-feature-encoding methods
 python Ab_DENV_FingerprintFeature.py
-
-
