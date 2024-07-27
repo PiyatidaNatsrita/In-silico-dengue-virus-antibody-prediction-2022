@@ -19,6 +19,11 @@ More details about the methods can be found in the paper.
 To run the code on your custom data just replace the filename at the appropriate commented place in the code. After installing the packages simply type the following in your command line.
 
 ```bash
+# sequence-feature-encoding methods
 python Ab_DENV_SequenceFeature.py
+
+# atom-feature-encoding methods
 python Ab_DENV_AtomFeature.py
+
+# fingerprint-feature-encoding methods
 python Ab_DENV_FingerprintFeature.py
