@@ -2,12 +2,6 @@
 This Github repository is for our paper "Machine-learning-assisted high-throughput identification of potent and stable neutralizing antibodies against all four dengue virus serotypes" 
 published in Scientific Reports. To read the paper please visit the following link: https://www.nature.com/articles/s41598-024-67487-8
 
-# Authors
-The work was done by Piyatida Natsrita, Phasit Charoenkwan, Watshara Shoombuatong, Panupong Mahalapbutr, Kiatichai Faksri, Sorujsiri Charoensudjai, Thanyada Rungrotmongkol and Chonlatip Pipattanaboon.
-
-# Acknowledgement
-This research project was financially supported by the Young Researcher Development Project of Khon Kaen University, Thailand.
-
 # Dataset
 We built a novel dataset (n = 1108) by compiling the interactions of CDR-H3 and epitope sequences with the half maximum inhibitory concentration (IC50) values, which represent neutralizing activities.
 
@@ -18,6 +12,14 @@ More details about the methods can be found in the paper.
 # Running the code
 To run the code on your custom data just replace the filename at the appropriate commented place in the code. After installing the packages simply type the following in your command line.
 
+# Authors
+The work was done by Piyatida Natsrita, Phasit Charoenkwan, Watshara Shoombuatong, Panupong Mahalapbutr, Kiatichai Faksri, Sorujsiri Charoensudjai, Thanyada Rungrotmongkol and Chonlatip Pipattanaboon.
+
+# Acknowledgement
+This research project was financially supported by the Young Researcher Development Project of Khon Kaen University, Thailand.
+
+# License
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 ```bash
 # sequence-feature-encoding methods
 python Ab_DENV_SequenceFeature.py
@@ -27,3 +29,5 @@ python Ab_DENV_AtomFeature.py
 
 # fingerprint-feature-encoding methods
 python Ab_DENV_FingerprintFeature.py
+
+
